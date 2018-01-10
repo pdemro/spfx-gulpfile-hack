@@ -1,6 +1,7 @@
 ## spfx-gulpfile-hack
 
-This is where you include your WebPart documentation.
+This is a project designed to supplement my blog post at <url>.  The idea is to reduce build times for large SpFx projects which have many components during development of a single component (e.g. individual web part or extension).
+
 
 ### Building the code
 
@@ -8,8 +9,21 @@ This is where you include your WebPart documentation.
 git clone the repo
 npm i
 npm i -g gulp
-gulp
+
+gulp build
 ```
+next, 
+* uncomment lines 7-13 in gulpfile.js
+* copy the contents of config/config.minimal.json into config/config.json
+* comment hard-coded exception lines 112-115 ("Do not use mergeConfig with gulp-core-build-typescript") in node_modules/@microsoft/gulp-core-build-typescript/lib/TypeScriptTask.js
+
+Finally:
+```bash
+gulp serve --nobrowser
+```
+Much more explanation in the blog post.
+
+### Default Stuff
 
 This package produces the following:
 

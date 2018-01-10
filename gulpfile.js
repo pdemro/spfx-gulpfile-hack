@@ -4,12 +4,12 @@ const gulp = require('gulp');
 const build = require('@microsoft/sp-build-web');
 build.addSuppression(`Warning - [sass] The local CSS class 'ms-Grid' is not camelCase and will not be type-safe.`);
 
-try {  
-    require('./gulpfile.custom');
-} catch (e) {
-    if (e.code !== 'MODULE_NOT_FOUND') {
-        throw e;
-    }
-}
+// try {  
+//     require('./gulpfile.custom');
+// } catch (e) {
+//     if (e.code !== 'MODULE_NOT_FOUND') {
+//         throw e;
+//     }
+// }
 
 build.initialize(gulp);
