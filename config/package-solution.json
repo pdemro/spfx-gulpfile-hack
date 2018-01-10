@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-gulpfile-hack-client-side-solution",
+    "id": "980666fc-c172-4b17-b1d0-2137bac62b97",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-gulpfile-hack.sppkg"
+  }
+}
