@@ -3,16 +3,16 @@ const build = require('@microsoft/sp-build-web');
 build.tslint.enabled = false;
 build.tslint.mergeConfig({
     sourceMatch: [
-        "src/webparts/<your webpart here>/**/*.ts",
-        "src/webparts/<your webpart here>/**/*.tsx",
+        "src/**/helloWorld2/**/*.ts",
+        "src/**/helloWorld2/**/*.tsx",
     ]
 });
 
 build.typescript.mergeConfig({
     sourceMatch: [
         //Your webpart files & supporting files
-        "src/**/<your webpart here>/**/*.ts",
-        "src/**/<your webpart here>/**/*.tsx",
+        "src/**/helloWorld2/**/*.ts",
+        "src/**/helloWorld2/**/*.tsx",
         //Default settings
         "typings/main/**/*.ts",
         "typings/main.d.ts",
