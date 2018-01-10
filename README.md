@@ -9,7 +9,6 @@ This is a project designed to supplement my blog post at <url>.  The idea is to 
 git clone the repo
 npm i
 npm i -g gulp
-
 gulp build
 ```
 next, 
