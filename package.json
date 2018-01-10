@@ -19,7 +19,10 @@
     "@microsoft/sp-webpart-base": "~1.4.0",
     "@microsoft/sp-lodash-subset": "~1.4.0",
     "@microsoft/sp-office-ui-fabric-core": "~1.4.0",
-    "@types/webpack-env": ">=1.12.1 <1.14.0"
+    "@types/webpack-env": ">=1.12.1 <1.14.0",
+    "@microsoft/decorators": "~1.4.0",
+    "@microsoft/sp-dialog": "~1.4.0",
+    "@microsoft/sp-application-base": "~1.4.0"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.4.0",

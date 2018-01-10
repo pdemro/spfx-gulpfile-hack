@@ -4,7 +4,20 @@
     "name": "spfx-gulpfile-hack-client-side-solution",
     "id": "980666fc-c172-4b17-b1d0-2137bac62b97",
     "version": "1.0.0.0",
-    "includeClientSideAssets": true
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "f190f1dc-a251-4ad7-b763-20a9e9c3c183",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
   },
   "paths": {
     "zippedPackage": "solution/spfx-gulpfile-hack.sppkg"
