@@ -9,7 +9,7 @@ This is a project designed to supplement my blog post at https://pdemro.com/impr
 git clone the repo
 npm i
 npm i -g gulp
-gulp build
+gulp serve --nobrowser (or gulp bundle)
 ```
 next, 
 * uncomment lines 7-13 in gulpfile.js
